@@ -12,7 +12,7 @@ def my_hash
     return yo
 
   end
-  oh_snap()
+  return oh_snap()
 end
 
 def pioneer
