@@ -6,7 +6,7 @@ end
 
 def my_hash
   def oh_snap
-    yo = Hash.new_hash
+    yo = Hash.new
     yo[:fuck] = "YES"
     yo[:dude] = "SD"
     return yo
