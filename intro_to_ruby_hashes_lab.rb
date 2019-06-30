@@ -26,7 +26,7 @@ def id_generator
   numm = num * 10
   nu = numm.ceil
   yoyo_SD = Hash.new
-  yoyo_SD[:id] = nu
+  yoyo_SD[:id] = nu.to_i
   return yoyo_SD
 end
 
