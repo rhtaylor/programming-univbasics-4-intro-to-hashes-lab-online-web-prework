@@ -1,9 +1,18 @@
 def new_hash
-  # return an empty hash
+nunu = {}
+
+return nunu
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  def oh_snap
+    yo = Hash.new_hash
+    yo[:fuck] = "YES"
+    yo[:dude] = "SD"
+    return yo
+
+  end
+  oh_snap()
 end
 
 def pioneer
