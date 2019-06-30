@@ -22,9 +22,11 @@ def pioneer
 end
 
 def id_generator
-  num = Random.new
+  num = rand()
+  numm = num * 10
+  nu = numm.ceil
   yoyo_SD = Hash.new
-  yoyo_SD[:id] = num
+  yoyo_SD[:id] = nu
   return yoyo_SD
 end
 
